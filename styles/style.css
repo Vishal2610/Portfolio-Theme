@@ -1,0 +1,252 @@
+body{
+    margin: 0px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #eee;
+}
+
+.main{
+    background-image: url(../resources/background.jpg);
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar{
+    float: right;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar a:hover{
+    border-bottom: 3px solid #fff;
+}
+
+.imp{
+    text-align: center;
+}
+
+.imp h1{
+     font-size: 80px;
+     clear: both;
+     padding-top: 300px;
+}
+
+.imp h2{
+    font-size: 36px;
+    margin-top: -50px;
+}
+
+#con{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #000;
+}
+
+.education{
+    color: #000;
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 10px 10px 50px #aaa;
+    padding: 20px;
+    margin-top: 25px; 
+    margin-bottom: 25px;
+}
+
+.education:nth-child(even){
+    background-color: #000;
+    color: #fff;
+}
+
+.education #ed-icon{
+    float: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.education #work-icon{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.education #trophy-icon{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.education h1{
+    font-size: 40px;
+}
+
+.education .content{
+    font-size: 20px;
+}
+
+.education #project-content h1{
+    text-align: center;
+}
+
+.project-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.project-details div{
+    box-shadow: 5px 5px 2px #ccc;
+}
+
+.project-details .link{
+    float: right;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border: 3px solid #fff;
+    border-radius: 15px;
+}
+
+.project-details .git-img{
+    width: 35px;
+    height: 35px;
+}
+
+.project-details .git-link{
+    float: right;
+    padding-right: 30px;
+}
+
+.project-details div{
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.project-details div h1{
+    font-size: 24px;
+}
+
+.project-details .get-details{
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+
+.footer{
+    margin-top: 0px;
+    width: 100%;
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 1px;
+}
+
+#social{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.pic{
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.git{
+    width: 33px;
+    height: 33px;
+}
+
+#tech-content h1{
+    text-align: center;
+}
+
+#tech-content .tech-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#tech-content .tech-details div{
+    text-align: center;
+    padding: 20px;
+}
+
+#frame-content h1{
+    text-align: center;
+}
+
+.frame-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.frame-details div{
+    text-align: center;
+}
+
+.icons{
+    width: 128px;
+    height: 128px;
+}
+
+.react{
+    width: 128px;
+    height: 120px;
+}
+
+.education .resume{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.resume div{
+    text-align: center;
+}
+
+.resume-btn{
+    border-style: none;
+    border-radius: 25px;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+
+
+
